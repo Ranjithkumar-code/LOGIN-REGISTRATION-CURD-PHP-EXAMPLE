@@ -1,0 +1,16 @@
+create dB with following details
+
+db_Name : testdb
+
+tbl_Name : registration
+	(Required columns or feilds)
+	id username password
+
+CREATE TABLE `testdb`.`registration` ( `id` INT NOT NULL AUTO_INCREMENT , `username` VARCHAR(250) NOT NULL , `passwordd` VARCHAR(250) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+tbl_Name : curdtb
+	(Required columns or feilds)
+	id name location email
+
+
+CREATE TABLE `testdb`.`curdtb` ( `id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(250) NOT NULL , `email` VARCHAR(250) NOT NULL , `location` VARCHAR NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
